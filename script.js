@@ -5,10 +5,10 @@ function toggleMode() {
   const img = document.querySelector("#profile img");
   
   if (html.classList.contains("light")) {
-    img.setAttribute('src', './assets/avatar-light.png');
-    img.setAttribute('alt', 'Foto de Mayk sorrindo, usando óculos escuro, jaqueta jeans e fundo azul');
+    img.setAttribute('src', './assets/photo-light.png');
+    img.setAttribute('alt', 'Foto de Iarley com camisa laranja e fundo azul gradiente');
   } else {
-    img.setAttribute('src', './assets/avatar.png');
-    img.setAttribute('alt', 'Foto de Mayk com óculos, camisa preta e fundo laranja');
+    img.setAttribute('src', './assets/photo.png');
+    img.setAttribute('alt', 'Foto de iarley com camisa laranja e fundo laranja');
   }
 }
